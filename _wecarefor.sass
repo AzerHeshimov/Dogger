@@ -1,6 +1,7 @@
 #wecarefor
-    padding: 50px 
+    padding: 50px 0
     .textbox
+        text-align: center
         h1
             font-weight: 700
             font-size: 60px
@@ -9,4 +10,30 @@
             color: #a8a8a8
             font-size: 24px
     .imgbox
+        margin: 0 15px
         width: 500px
+        border-radius: 30px
+        overflow: hidden
+    @media ( max-width: 768px )
+        .textbox
+            h1
+                font-size: 40px
+            h4
+                font-size: 20px
+                margin-top: 15px
+        .imgbox
+            width: 450px
+            margin-top: 20px
+    @media ( max-width: 576px ) and (min-width: 401px)
+        .textbox
+            h1
+                font-size: 30px
+            h4
+                font-size: 18px
+        .imgbox
+            width: 400px
+    @media ( max-width: 400px )
+        .imgbox
+            width: 300px
+        .textbox
+            width: 200px

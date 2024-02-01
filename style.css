@@ -8,7 +8,10 @@ body {
 }
 
 #wecarefor {
-  padding: 50px;
+  padding: 50px 0;
+}
+#wecarefor .textbox {
+  text-align: center;
 }
 #wecarefor .textbox h1 {
   font-weight: 700;
@@ -20,7 +23,42 @@ body {
   font-size: 24px;
 }
 #wecarefor .imgbox {
+  margin: 0 15px;
   width: 500px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  #wecarefor .textbox h1 {
+    font-size: 40px;
+  }
+  #wecarefor .textbox h4 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  #wecarefor .imgbox {
+    width: 450px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 576px) and (min-width: 401px) {
+  #wecarefor .textbox h1 {
+    font-size: 30px;
+  }
+  #wecarefor .textbox h4 {
+    font-size: 18px;
+  }
+  #wecarefor .imgbox {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  #wecarefor .imgbox {
+    width: 300px;
+  }
+  #wecarefor .textbox {
+    width: 200px;
+  }
 }
 
 #welcome {
@@ -51,10 +89,44 @@ body {
   color: white;
   background-color: #a7b59f;
   border-radius: 20px;
-  padding: 10px 30px;
+  width: 125px;
+  height: 45px;
+}
+#welcome .imgbox {
+  border-radius: 20px;
+  overflow: hidden;
 }
 #welcome .wid {
   width: 580px;
+}
+@media (max-width: 992px) {
+  #welcome .textbox {
+    padding: 40px;
+  }
+}
+@media (max-width: 768px) {
+  #welcome .textbox {
+    text-align: start;
+    padding: 20px;
+  }
+  #welcome .textbox h2 {
+    display: flex;
+    justify-content: center;
+  }
+  #welcome .textbox h6 {
+    text-align: start;
+  }
+  #welcome .textbox .btn {
+    margin: 0 190px;
+  }
+  #welcome .imgbox {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  #welcome .textbox {
+    text-align: center;
+  }
 }
 
 #aboutus {
@@ -94,6 +166,8 @@ body {
 }
 #aboutus .imgbox {
   width: 450px;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 #trainers {
@@ -115,6 +189,10 @@ body {
 }
 #trainers .box .textbox {
   padding: 15px;
+}
+#trainers .box .imgbox {
+  border-radius: 20px;
+  overflow: hidden;
 }
 #trainers .box h2 {
   padding: 20px 0 0;
@@ -163,6 +241,7 @@ body {
   background-color: #708f97;
   padding: 50px 30px;
   text-align: center;
+  border-radius: 20px;
 }
 #pricing .box h2 {
   font-size: 26px;
@@ -209,6 +288,10 @@ body {
   font-size: 20px;
   margin: 0 0 40px;
   line-height: 1.4;
+}
+#questions .imgbox {
+  border-radius: 30px;
+  overflow: hidden;
 }
 #questions .textbox {
   padding: 0 70px;
@@ -277,6 +360,11 @@ body {
 }
 #dogger .wid {
   width: 580px;
+}
+#dogger .imgbox {
+  height: 118px;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 #ourservices {
