@@ -35,4 +35,22 @@
                     margin: -7px
     .wid
         width: 500px
-        
+
+    @media ( max-width: 768px )
+        .textbox
+            h1
+                font-size: 30px
+        .imgbox
+            max-height: 400px
+
+    @media ( max-width: 400px )
+        .box
+            .textbox
+                padding: 10px
+                h1
+                    font-size: 25px
+                h3, h4
+                    font-size: 18px
+            .imgbox
+                overflow: hidden
+                max-height: 300px
