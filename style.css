@@ -582,8 +582,21 @@ body {
 #ourservices .textbox .icon {
   font-size: 60px;
 }
-@media (max-size: 420px) {
+@media (max-width: 768px) {
   #ourservices .textbox {
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  #ourservices h1 {
+    font-size: 27px;
+  }
+  #ourservices h3 {
+    margin: 17px 0 0;
+    font-size: 18px;
+  }
+  #ourservices .textbox {
+    text-align: center;
     padding: 15px 20px;
   }
 }/*# sourceMappingURL=style.css.map */
