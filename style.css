@@ -479,11 +479,10 @@ body {
     padding: 0 15px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   #questions .imgbox {
     overflow: hidden;
-    max-width: 270px;
-    padding: 0 15px;
+    min-width: 300px;
   }
 }
 
@@ -523,9 +522,35 @@ body {
   width: 580px;
 }
 #dogger .imgbox {
-  height: 118px;
+  height: 100px;
   overflow: hidden;
   border-radius: 20px;
+}
+@media (max-width: 992px) {
+  #dogger .imgbox {
+    height: 60px;
+  }
+}
+@media (max-width: 768px) {
+  #dogger .imgbox {
+    height: 96px;
+  }
+  #dogger h1 {
+    font-size: 30px;
+  }
+  #dogger h3 {
+    font-size: 18px;
+    margin: 18px 0 40px;
+  }
+}
+@media (max-width: 420px) {
+  #dogger .box {
+    display: block;
+  }
+  #dogger .box .imgbox {
+    height: 180px;
+    margin: 15px;
+  }
 }
 
 #ourservices {
@@ -556,4 +581,9 @@ body {
 }
 #ourservices .textbox .icon {
   font-size: 60px;
+}
+@media (max-size: 420px) {
+  #ourservices .textbox {
+    padding: 15px 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -24,6 +24,23 @@
     .wid
         width: 580px
     .imgbox
-        height: 118px
+        height: 100px
         overflow: hidden
         border-radius: 20px
+    @media ( max-width: 992px)
+        .imgbox
+            height: 60px
+    @media ( max-width: 768px)
+        .imgbox
+            height: 96px
+        h1
+            font-size: 30px
+        h3
+            font-size: 18px
+            margin: 18px 0 40px
+    @media ( max-width: 420px )
+        .box
+            display: block
+            .imgbox
+                height: 180px
+                margin: 15px 
